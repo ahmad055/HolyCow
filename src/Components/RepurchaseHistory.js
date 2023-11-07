@@ -1,20 +1,24 @@
 import React from "react";
+import { Scrollbars } from 'react-custom-scrollbars-2';
+
 
 const RepurchaseHistory = () => {
   return (
     <div className="row mt-5">
       <div className="col-11 mt-5 mx-auto">
         <div className="text-center">
-          <h1 className="text-center">Total Repurchase Tickets</h1>
+          <h1 className="text-center">Tickets purchase</h1>
           <button type="submit" className="Repurchase-btn">
-            Total Repurchase
+            Repurchase Ticket
           </button>
         </div>
         <div className="row">
           <div className="col-11 mt-5 mx-auto">
-            <div className="table-div p-5">
-              <h1 className="pb-3">Ticket History</h1>
-              <div className="table-responsive">
+            <div className="table-div p-4">
+              <h1 className="pb-2">Ticket History</h1>
+
+              <div className=" p-1">
+                <Scrollbars style={{ width:"100%", height:370 }}>
               <table className="table">
                 <thead>
                   <tr>
@@ -35,9 +39,31 @@ const RepurchaseHistory = () => {
                     <td>921409198-87782</td>
                     <td>cosmos1wj30wcqa</td>
                   </tr>
+                  <tr>
+                    <td>921409198-87782</td>
+                    <td>cosmos1wj30wcqa</td>
+                  </tr>
+                  <tr>
+                    <td>921409198-87782</td>
+                    <td>cosmos1wj30wcqa</td>
+                  </tr>
+                  <tr>
+                    <td>921409198-87782</td>
+                    <td>cosmos1wj30wcqa</td>
+                  </tr>
+                  <tr>
+                    <td>921409198-87782</td>
+                    <td>cosmos1wj30wcqa</td>
+                  </tr>
+                  <tr>
+                    <td>921409198-87782</td>
+                    <td>cosmos1wj30wcqa</td>
+                  </tr>
+
                   {/* Add more rows as needed */}
                 </tbody>
               </table>
+              </Scrollbars>
 
               </div>
             </div>

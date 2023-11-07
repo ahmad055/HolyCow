@@ -10,10 +10,10 @@ const ReferralDepositForm = () => {
           <div className="col-md-6 mt-2">
             <div className="card mx-auto card-referral-form">
             <form>
-                <div class="form-group  pt-3 p-2">
-                  <label className="form-label" for="exampleInputEmail1">Referral Adress</label>
+                <div className="form-group  pt-3 p-2">
+                  <label className="form-label" >Referral Adress</label>
                   <div className="icon-inputfield d-flex flex-row">
-                    <img className="icon-mail" src={e} alt="e"/><input type="email" className=" formInputField" id="exampleInputEmail1" placeholder="Enter Referral Email Adress"/>
+                    <img className="icon-mail" src={e} alt="e"/><input type="email" className=" formInputField" id="exampleInputEmail1" placeholder="Enter Referral Adress"/>
                   </div>
                   
                 </div>
@@ -27,10 +27,10 @@ const ReferralDepositForm = () => {
           <div className="col-md-6 mt-2">
           <div className="card card-referral-form mx-auto">
           <form>
-                <div class="form-group  pt-3 p-2">
-                  <label className="form-label" for="exampleInputEmail1">Referral Adress</label>
+                <div className="form-group  pt-3 p-2">
+                  <label className="form-label">Deposit</label>
                   <div className="icon-inputfield d-flex flex-row">
-                    <img className="icon-mail" src={e} alt="e"/><input type="email" className=" formInputField" id="exampleInputEmail1" placeholder="Enter Deposit Email"/>
+                    <img className="icon-mail" src={e} alt="e"/><input type="email" className=" formInputField" id="exampleInputEmail1" placeholder="Enter Deposit Amount"/>
                   </div>
                   
                 </div>

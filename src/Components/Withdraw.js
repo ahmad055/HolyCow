@@ -10,8 +10,8 @@ const Withdraw = () => {
           <div className="col-lg-6 withdraw-form p-5 mt-5">
             <div className="card p-2">
               <form>
-                <div class="form-group  pt-3 p-2">
-                  <h4 className="form-label" for="exampleInputEmail1">
+                <div className="form-group  pt-3 p-2">
+                  <h4 className="form-label" >
                     Withdraw Amount
                   </h4>
                   <div className="icon-inputfield d-flex flex-row">

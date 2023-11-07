@@ -13,7 +13,7 @@ const MintNFT = () => {
               <img className="NFT-cow" src={cow} alt="cow" />
             </div>
             <div className="col-lg-3">
-              <img className="mt-5 p-3 d-none d-sm-block" src={group2} />
+              <img className="mt-5 p-3 d-none d-sm-block" src={group2} alt="pic" />
             </div>
             <div className="col-lg-5">
               <div className="p-5 mt-5 nft-card d-flex justify-content-end">
@@ -30,8 +30,10 @@ const MintNFT = () => {
                   </div>
                   <div className="data-section mt-4">
                     <p>Show NFT</p>
-                    <p>Show NFT</p>
-                    <p>Undertaken NFtz</p>
+                  </div>
+                  <div className="d-flex justify-content-evenly">
+                    <button className="StakeNFT-btn">Stake NFT</button> 
+                    <button className="StakeNFT-btn mx-1 ">Unstake NFT</button>
                   </div>
                 </div>
               </div>
